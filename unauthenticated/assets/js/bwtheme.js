@@ -75,4 +75,12 @@ $(function() {
 		menuElement.addClass("selected");															//add active class to new <li>
 		menuParent.addClass("selected");															//add active class to new parent <li>
 	});
+
+var __ua__ = window.navigator.userAgent,
+    ___is_iOS = (!!__ua__.match(/iPad/i) || !!__ua__.match(/iPhone/i)),
+    ___is_webkit = (!!__ua__.match(/WebKit/i)),
+    ___is_iOSSafari = (___is_iOS && ___is_webkit && !__ua__.match(/CriOS/i) && !__ua__.match(/OPiOS/i));
+(___is_iOSSafari &&
+    ($('html').css('overflow', 'auto'))
+)
 });
