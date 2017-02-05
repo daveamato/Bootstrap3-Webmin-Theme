@@ -1,6 +1,6 @@
-desc=BWTheme - Bootstrap Webmin Theme
+desc=Bootstrap Webmin Theme
 longdesc=A simple and beautiful theme for Webmin, Usermin, Virtualmin and Cloudmin made using Bootstrap and Font Awesome
-version=0.9.5
+version=1.0.0
 webmin=1
 usermin=1
 depends=1.660
